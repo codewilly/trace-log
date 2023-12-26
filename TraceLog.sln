@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceLog.Example.API", "src\TraceLog.Example.API\TraceLog.Example.API.csproj", "{9EFB65D9-CB0C-418C-9134-A37F0E476E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceLog.Core", "src\TraceLog.Core\TraceLog.Core.csproj", "{A6EA1604-DB42-4640-BEC1-A1D1033A7948}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{228E8A58-35DE-4408-8604-9A8D711F35F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EFB65D9-CB0C-418C-9134-A37F0E476E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFB65D9-CB0C-418C-9134-A37F0E476E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFB65D9-CB0C-418C-9134-A37F0E476E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFB65D9-CB0C-418C-9134-A37F0E476E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EA1604-DB42-4640-BEC1-A1D1033A7948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EA1604-DB42-4640-BEC1-A1D1033A7948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EA1604-DB42-4640-BEC1-A1D1033A7948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EA1604-DB42-4640-BEC1-A1D1033A7948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EFB65D9-CB0C-418C-9134-A37F0E476E65} = {228E8A58-35DE-4408-8604-9A8D711F35F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58DA64AD-1AF3-49FB-84B2-7CF2888D15AA}
+	EndGlobalSection
+EndGlobal
