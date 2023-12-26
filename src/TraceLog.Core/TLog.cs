@@ -9,7 +9,12 @@ namespace TraceLog.Core
     {
         public static void Information(string message, params object[] args)
         {
-            _service.AddLog(LogLevel.Information, message, args);
+            _service.AddLog(LogLevel.Information, "default", message, args);
+        }   
+
+        public static void Json<T>(T data, string? message = null) where T : class
+        {
+            _service.AddJsonLog(LogLevel.Information, data, message);
         }
 
         private static ITraceLogService _service => 
